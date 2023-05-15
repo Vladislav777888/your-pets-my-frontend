@@ -20,7 +20,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       <PersistGate loading={null} persistor={persistor}>
         <HelmetProvider>
           <ChakraProvider>
-            <BrowserRouter basename="your-pets-frontend">
+            <BrowserRouter basename="your-pets-my-frontend">
               <App />
               <ToastContainer />
             </BrowserRouter>
